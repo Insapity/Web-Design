@@ -1,0 +1,606 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	min-width: 1000px;
+	font-family: Arial;
+	background-color: #f9f9f9;
+}
+html a{
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 20px;
+	padding: 27px 0 27px 18px;
+	margin: 0 0 34px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+#black-bar {
+	background-color: #00122f;
+	color: white;
+	padding: 20px 0;
+	font-size: 16px;
+}
+
+#black-bar a {
+	color: white;
+}
+
+.fixed-container {
+	width: 960px;
+	margin: auto auto;
+	position: relative;
+}
+
+#datetime {
+	float: right;
+}
+
+.header-bar {
+	position: relative;
+	top: 52px;
+	font-size: 16px;
+	max-width: 940px;
+}
+.city a {
+	text-decoration: none;
+}
+header {
+	height: 85px;
+	font-size: 16px;
+	background-color: white;
+}
+
+.city {
+	color: #448ccb;
+	position: absolute;
+	left: 180px;
+	border-bottom: 1px dotted #448ccb;
+}
+
+#arrow {
+	position: absolute;
+	left: 244px;
+	top: 4px;
+	color: black;
+}
+
+.weather {
+	height: 24px;
+	padding-left: 40px;
+	background-image: url('img/cloudy.png'); 
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 510px;
+
+	color: grey;
+}
+
+.search {
+	height: 46px;
+	background-color: #f3f3f3;
+	position: absolute;
+	top: -10px;
+	width: 310px;
+	border: 1px solid black;
+	padding-left: 10px;
+	border-radius: 50px;
+	left: 640px;
+	color: grey;
+	font-size: 14px;
+
+}
+
+.sbutton {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 928px;
+	top: 4px;
+	border: 0 none;
+	background-image: url('img/search.png'); 
+	background-repeat: no-repeat;
+}
+#logo {
+	position: absolute;
+	top: -12px;
+}
+
+.menu{
+	height: 45px;
+	background-color: white;
+	position: relative;
+	top: 35px;
+	width: 920px;
+	font-size: 16px;
+}
+
+
+nav {
+	height: 85px;
+	background-color: white;
+	
+}
+
+nav a{
+	text-decoration: none;
+	color: black;
+}
+	
+	.polit {
+		background-image: url('img/slash.png');
+		background-repeat: no-repeat;
+		position: absolute;
+		top: 0px;
+		left: 77px;
+		padding-left: 26px;
+	}
+	.society {
+		background-image: url('img/slash.png');
+		background-repeat: no-repeat;
+		position: absolute;
+		top: 0px;
+		left: 190px;
+		padding-left: 26px;
+	}
+	.eko {
+		background-image: url('img/slash.png');
+		background-repeat: no-repeat;
+		position: absolute;
+		top: 0px;
+		left: 305px;
+		padding-left: 26px;
+	}
+	.world {
+		background-image: url('img/slash.png');
+		background-repeat: no-repeat;
+		position: absolute;
+		top: 0px;
+		left: 425px;
+		padding-left: 26px;
+	}
+	.events {
+		background-image: url('img/slash.png');
+		background-repeat: no-repeat;
+		position: absolute;
+		top: 0px;
+		left: 518px;
+		padding-left: 26px;
+	}
+	.sport {
+		background-image: url('img/slash.png');
+		background-repeat: no-repeat;
+		position: absolute;
+		top: 0px;
+		left: 656px;
+		padding-left: 26px;
+	}
+	.science {
+		background-image: url('img/slash.png');
+		background-repeat: no-repeat;
+		position: absolute;
+		top: 0px;
+		left: 740px;
+		padding-left: 26px;
+	}
+	.turism {
+		background-image: url('img/slash.png');
+		background-repeat: no-repeat;
+		position: absolute;
+		top: 0px;
+		left: 828px;
+		padding-left: 26px;
+	}
+
+
+#aside {
+	background-color: #FFFFFF;
+	width: 250px;
+	float: left;
+	position: relative;
+	height: 846px;
+}
+	.morebutton
+	{
+		position: absolute;
+		width: 130px;
+		height: 30px;
+		top: 776px;
+		left: 40px;
+		border: 1px solid #448ccb;
+		border-radius: 50px;
+		padding-left:50px;
+		padding-top: 15px;
+		font-size: 14px;
+		color: #448ccb;
+	}
+
+	.news-item {
+		padding-left: 18px;
+		margin-bottom: 27px;
+		font-size: 14px;
+	}
+
+	.news-item-text {
+		margin-bottom: 20px;
+	}
+
+	.news-item-props {
+		font-size: 12px;
+		position: relative;
+	}
+
+		.news-item-props a {
+			color: #91919f;
+		}
+
+		.news-time {
+			position: absolute;
+			top: 0;
+			left: 120px;
+			padding-left: 15px;
+			background-image: url('img/icon-time.png');
+			background-repeat: no-repeat;
+		}
+
+		.news-comments-count {
+			position: absolute;
+			top: 0;
+			left: 180px;
+			padding-left: 15px;
+			background-image: url('img/icon-comments.png');
+			background-repeat: no-repeat;
+		}
+
+section {
+	background-image: url('img/Layer 1.png');
+	background-repeat: no-repeat;
+	background-color: white;
+	width: 420px;
+	height: 322px;
+	margin-left: 20px;
+	float: left;
+	position: relative;
+}
+
+    .cent-props{
+		position: absolute;
+		top: 114px;
+		left: 20px;
+		width: 420px;
+		font-size: 12px;
+		color: white;
+    }
+
+    .text-main{
+    	position: absolute;
+		top: 150px;
+		left: 20px;
+		width: 350px;
+		color: white;
+		font-size: 28px;
+		font-weight: bold;
+    }
+
+    .main-date{
+    	position: absolute;
+		top: 268px;
+		left: 20px;
+		color: white;
+		font-size: 12px;
+    }
+
+    .main-time{
+    	background-image: url('img/clocks-layer1.png');
+		background-repeat: no-repeat;
+    	position: absolute;
+    	padding-left: 14px;
+		top: 268px;
+		left: 116px;
+		color: white;
+		font-size: 12px;
+    }
+    .central{
+    	position: relative;
+    	top:342px;
+    	background-color: white;
+    }
+    .central1{
+    	width: 200px;
+    	height: 234px;
+    	position: absolute;
+    	padding-top: 146px;
+    	margin-bottom: 22px;
+    	background-image: url('img/Navalny.png');
+    	background-size: 100%;
+		background-repeat: no-repeat;
+    }
+    .central2{
+    	width: 200px;
+    	height: 234px;
+    	position: absolute;
+    	left: 225px;
+    	padding-top: 146px;
+    	margin-bottom: 22px;
+    	background-image: url('img/Duma.png');
+    	background-size: 97%;
+		background-repeat: no-repeat;
+    }
+    .central3{
+    	width: 200px;
+    	height: 234px;
+    	position: absolute;
+    	top: 254px;
+    	padding-top: 146px;
+    	margin-bottom: 22px;
+    	background-image: url('img/girl.png');
+		background-repeat: no-repeat;
+    }
+    .central4{
+    	width: 200px;
+    	height: 234px;
+    	position: absolute;
+    	top: 254px;
+    	left: 225px;
+    	padding-top: 146px;
+    	margin-bottom: 22px;
+    	background-image: url('img/football.png');
+		background-repeat: no-repeat;
+    }
+
+    .central-text{
+    	font-size: 13px;
+    	font-weight: bold;
+    	margin-bottom: 16px;
+    }
+
+    .central-props {
+    	font-size: 12px;
+    	color:grey;
+    }
+    .central-props a{
+    	color:grey;
+    }
+    .central-time{
+    		font-size: 12px;
+    		position: absolute;
+			top: 206px;
+			left: 72px;
+			padding-left: 15px;
+			background-image: url('img/icon-time.png');
+			background-repeat: no-repeat;
+    }
+    .central-comments-count{
+    		font-size: 12px;
+    	    position: absolute;
+			top: 206px;
+			left: 136px;
+			padding-left: 15px;
+			background-image: url('img/icon-comments.png');
+			background-repeat: no-repeat;
+    }
+#central-container {
+	padding-top: 20px;
+	background-color: #f9f9f9;
+	background-image: url('img/central-bg-top.png');
+	background-repeat: repeat-x;
+	margin-bottom: 60px;
+}
+
+.spec-news{
+	width: 960px;
+	margin: auto auto;
+	position: relative;
+}
+
+.left-news{
+	background-image: url('img/Pekin.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 528px;
+	height: 352px;
+	float: left;
+	position: relative;
+}
+
+article {
+	margin-top: 20px;
+	width: 960px;
+	float: left;
+} 
+
+.spec-props{
+		position: absolute;
+		top: 87px;
+		left: 18px;
+		font-size: 12px;
+		color: white;
+}
+
+.spec-main{
+		position: absolute;
+		top: 125px;
+		left: 18px;
+		font-size: 28px;
+		width: 396px;
+		font-weight: bold;
+		color: white;
+}
+
+.spec-date{
+position: absolute;
+		top: 238px;
+		left: 18px;
+		font-size: 12px;
+		width: 396px;
+		color: white;
+}
+
+.spec-time{
+position: absolute;
+		top: 238px;
+		left: 114px;
+		background-image: url('img/clock-pekin.png');
+		background-repeat: no-repeat;
+    	padding-left: 14px;
+		font-size: 12px;
+		width: 396px;
+		color: white;
+}
+
+.spec-comment{
+position: absolute;
+		top: 278px;
+		left: 18px;
+		font-size: 12px;
+		width: 430px;
+		color: white;
+}
+
+.most-read{
+	background-color: #FFFFFF;
+	width:432px;
+	height: 85px;
+	float: left;
+	position: relative;
+	font-size: 14px;
+}
+.section{
+	background-color: #FFFFFF;
+	float: left;
+	width:432px;
+}
+.section h2{
+	font-size: 20px;
+	padding: 30px 0 30px 20px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.most-text{
+		position: absolute;
+		width: 360px;
+		font-size: 16px;
+		padding-left: 20px;
+		font-weight: bold;
+		margin-bottom: 12px;
+}
+
+.most-props{
+		font-size: 12px;
+		padding-left: 20px;
+		position: relative;
+		top: 50px;
+		margin-bottom: 10px;
+}
+.most-props a{
+	color: #91919f;
+	font-size: 12px;
+	float: left;
+	height: 48px;
+}
+
+.most-time{
+			position: absolute;
+			left: 85px;
+			padding-left: 15px;
+			background-image: url('img/icon-time.png');
+			background-repeat: no-repeat;
+}
+
+.most-comments-count{
+			position: absolute;
+			left: 139px;
+			padding-left: 15px;
+			background-image: url('img/icon-comments.png');
+			background-repeat: no-repeat;
+}
+
+
+#central-container .fixed-container{
+	overflow-y: hidden;
+}
+
+#column-right {
+	width: 250px;
+	height: 846px;
+	float: right;
+}
+
+#column-right img {
+	margin-bottom: 20px;
+}
+
+
+.list {
+	padding-left: 20px;
+}
+
+.list-item {
+	display: list-item;
+}
+
+footer{
+	height: 312px;
+	width: 100%;
+	background-color: #00122f;
+	color: white;
+	font-size: 16px;
+	overflow-y: hidden;
+	position: absolute;
+
+}
+
+	.footer-text{
+			padding: 58px 0 0 0;
+			margin-bottom: 60px;
+			height: 200px;
+			border-bottom: 1px solid #26354e;		
+	}
+		.footer-all{
+			width: 960px;
+		}
+
+		.footer-a {
+			margin-bottom: 20px;
+		}
+		.footer-a a{
+			color: white;
+			font-size:16px;
+		}
+
+		.column{
+			float: left;
+			position: relative;
+			padding-right: 60px;
+		}
+			.column-footer-logo{
+				position: absolute;
+				width: 122px;
+				left: 148px;
+				padding-top: 65px;
+				background-image: url("img/logo-footer.png");
+				background-repeat: no-repeat; 
+			}
+
+			.column-footer-right{
+				float: right;
+				width: 192px;
+				padding-top: 84px;
+				padding-left: 37px;
+				background-image: url("img/logos.png");
+				background-repeat: no-repeat; 
+			}
+
+			.column-footer-right .footer-a{
+				width: 152px;
+			}
+
+	.footer-info{
+			position: absolute;
+			top: 282px;
+			left: 303px;
+			color: grey;
+			font-size: 14px;
+			height: 50px;
+		}
